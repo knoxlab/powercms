@@ -1,0 +1,12 @@
+[submodule "cms-common"]
+	path = cms-common
+	url = https://github.com/knoxlab/cms-common.git
+	branch = main
+[submodule "cms-core"]
+	path = cms-core
+	url = https://github.com/knoxlab/cms-core.git
+	branch = main
+[submodule "admin-ui"]
+	path = admin-ui
+	url = https://github.com/knoxlab/admin-ui.git
+	branch = main

@@ -1,0 +1,26 @@
+# 本地数据：默认 H2 文件库（./data/powercms），运行期持续写入，绝不入库
+data/
+build/
+
+# 子模块由各自仓库的 .gitignore 管理，此处仅兜底常见构建产物
+**/target/
+**/node_modules/
+**/dist/
+
+# 日志与本地流水
+*.log
+
+# IDE / 编辑器
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 本地会话记忆
+.workbuddy/
